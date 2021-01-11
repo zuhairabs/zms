@@ -28,7 +28,7 @@ When you want to make these docs available through the dropdown menu, put the fo
 ```
 [[params.versions]]
 zmsversion = "X.Y.Z"
-helmversion = "1.3"
+helmversion = "X.Y"
 branchname = "release-X.Y.Z"
 ``` 
 
