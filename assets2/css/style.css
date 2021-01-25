@@ -7760,9 +7760,9 @@ display:none;
   .naccs .menu div {
 	padding: 15px 20px 15px 40px;
 	margin-bottom: 10px;
-	color: #999999;
-	background: #202F59;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	color: #000;
+	background: #eeeeee;
+	/* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
 	cursor: pointer;
 	position: relative;
 	vertical-align: middle;
@@ -7771,7 +7771,7 @@ display:none;
   }
   
   .naccs .menu div:hover {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
   
   .naccs .menu div span.light {
@@ -7780,7 +7780,7 @@ display:none;
 	position: absolute;
 	top: 24px;
 	left: 15px;
-	background-color: #202F59;
+	background-color: #dc834e;
 	border-radius: 100%;
 	transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -7797,6 +7797,7 @@ display:none;
   .naccs .menu div.active {
 	color: #dc834e;
 	padding: 15px 20px 15px 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
   
   ul.nacc {
@@ -7827,12 +7828,37 @@ display:none;
 	margin: 0;
   }
 
+  .air-ticket-para {
+	display: flex;
+	margin-bottom: 30px;
+  }
+
+  .air-ticket-para img {
+	width: 40%;
+	height: 100px;
+	margin: 0 20px;
+  }
+
   @media (max-width:768px){
 	.naccs {
 		position: static;
-		max-width: 90%;
+		max-width: 100%;
 		margin: 80px auto 0;
 		margin-bottom: 500px;
+	  }
+	  .gc--1-of-3 {
+		width: 100%;
+	  }
+	  
+	  .gc--2-of-3 {
+		width: 100%;
+	  }
+	  .air-ticket-para {
+		  display: inline;
+	  }
+	  .air-ticket-para img {
+		  width: 100%;
+		  margin: 30px 0;
 	  }
   }
 
